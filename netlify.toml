@@ -12,3 +12,9 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "https://www.asimson.com.ng/*"
+  to = "https://asimson.com.ng/:splat"
+  status = 301
+  force = true
